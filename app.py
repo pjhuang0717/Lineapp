@@ -54,7 +54,7 @@ def pretty_echo(event):
         line_bot_api.reply_message(
             event.reply_token,
             #TextSendMessage(text=pretty_text)
-			TextSendMessage(text="我知道")
+			TextSendMessage(text="我不知道")
         )
 
 if __name__ == "__main__":
